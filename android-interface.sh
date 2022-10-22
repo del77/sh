@@ -43,7 +43,7 @@ error () {
 
 dload_and_install () {
   log "Downloading revanced-builder..."
-  curl -sLo revanced-builder.zip https://github.com/reisxd/revanced-builder/archive/refs/heads/main.zip
+  curl -sLo revanced-builder.zip https://github.com/reisxd/revanced-builder/archive/refs/tags/v3.3.0.zip
   log "Unzipping..."
   unzip -qqo revanced-builder.zip
   rm revanced-builder.zip
